@@ -1,5 +1,24 @@
-p{
-color:rgb(125, 125, 207)
-
+body {
+background-color: rgb(116, 197, 170);
+}
+header{
+background-color: rgb(201, 105, 105);
+}
+        .simbolo{
+    background-color: rgb(255, 255, 255);
+}
+        nav{
+    background-color: chartreuse;
 
 }
+         main{
+        background-color: blueviolet;
+
+
+
+    }
+         footer{
+    background-color: coral;
+
+
+   }

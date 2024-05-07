@@ -2,15 +2,12 @@ body {
 
     background-image: url('../img/images.jpg');
     background-repeat: no-repeat;
-
 }
-
-header{
+.cabecalho{
     padding: 3%;
 
-
 }
- /*........................................................................................*/  
+
 #menu ul{
 padding: 0px;
 margin:0px ;

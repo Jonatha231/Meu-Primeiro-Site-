@@ -1,17 +1,21 @@
 body {
 
-    background-image: url('../img/images.jpg');
+    background-image: url(/img/fundo-fotografico..jpg);
+    background-size: cover;
+    background-size: 100%;
+
     background-repeat: no-repeat;
 }
 .cabecalho{
     padding: 3%;
+    display: flex;
 
 }
 
 #menu ul{
 padding: 0px;
 margin:0px ;
-background-color: aliceblue;
+background-color: rgb(255, 255, 255);
 list-style: none;
 }
 
@@ -21,17 +25,23 @@ list-style: none;
     padding: 2px 10px ;
     display: inline block;
     text-decoration:none;
-border-bottom: 3px rgb(250, 243, 243)
+border-bottom: 3px rgb(0, 0, 0)
 
 
 
-
+/*..*/ 
 
 
 }
  /*........................................................................................*/  
 .simbolo{
-     background-color: rgb(190, 189, 189); 
+     width: 50%;
+     height: auto;
+     justify-content:space-between;
+     align-items: center;
+     
+
+
 }
  /*........................................................................................*/  
 nav{
@@ -40,7 +50,7 @@ nav{
 }
  /*........................................................................................*/           
 main{
-     background-color: rgb(252, 252, 252); 
+    
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -48,8 +58,26 @@ main{
 }
  /*........................................................................................*/           
 footer{
-    background-color: rgb(255, 255, 255); 
+    
     padding: 3%;
 
 }
  /*........................................................................................*/  
+  p{
+    line-height: 1.5;
+    font-size: 1.2em;
+    text-align: justify;
+    color: aliceblue;
+  }
+  figure{
+text-align:center;
+
+
+  }
+
+    ..caixa.imagem{
+text-align: center;
+margin-top: 1%;
+
+
+    }
